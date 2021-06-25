@@ -64,7 +64,7 @@ PyCharm安装细节已给出，剩下无脑next。
 
 ## 附录1：使用Miniconda而非Anaconda
 顾名思义，miniconda是anaconda的最小分发版，只包含了conda和纯python，若想使用书上提到的pandas、PIL.Image、matplotlib等模块，需要先进行安装，下面的例子说明了如何安装，请依样画葫芦完成剩余模块的安装。Miniconda和Anaconda下载网址不同，可以使用清华源[Tsinghua source](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/ "Tsinghua source")进行下载。安装时跟Anaconda差不多。win7的版本同上，Win10下载[Miniconda3-py38_4.9.2-Windows-x86.exe](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py38_4.9.2-Windows-x86.exe "32bit")（32位）/ [Miniconda3-py38_4.9.2-Windows-x86_64.exe](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py38_4.9.2-Windows-x86_64.exe "64bit")（64位）。安装完后十分干净，不带多余组件，大约占用500M存储空间。必要的模块有：`pillow`, `matplotlib`, `pyqt`, `pandas`, `flask`, `numpy`, `scipy`, `jieba`。嫌下载慢，可以参考网上教程[知乎教程](https://zhuanlan.zhihu.com/p/133494097 "知乎教程")。  
-此处以安装`pep8`为例，首先按`win`键，在Anaconda（是的你没看错）目录中找到`Anaconda Powershell Prompt (miniconda3)`，然后单击以运行：
+此处以安装`pep8`为例，首先按`win`键，在Anaconda（是的你没看错）目录中找到`Anaconda Powershell Prompt (miniconda3)`，然后单击以运行：  
 ![命令行1](https://gitee.com/rocketma/Guidance/raw/main/Pictures/33.jpg "命令行1")  
 ![命令行2](https://gitee.com/rocketma/Guidance/raw/main/Pictures/34.jpg "命令行2")  
 ![命令行3](https://gitee.com/rocketma/Guidance/raw/main/Pictures/35.jpg "命令行3")  
