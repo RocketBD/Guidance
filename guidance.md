@@ -40,7 +40,7 @@ PyCharm安装细节已给出，剩下无脑next。
 ![安装11](https://gitee.com/rocketma/Guidance/raw/main/Pictures/13.jpg "安装11")  
 
 ### 5.配置Python解释器
-首先要新建一个项目（PyCharm很在意项目管理），以后要写代码，需要打开此代码，**不要直接打开.py文件编辑！**可以现将其复制到项目路径下打开再编辑。（可以直接把文件复制，再在之后所展示的窗口中选中pythonProject（或你自己改的名字）右键粘贴）  
+首先要新建一个项目（PyCharm很在意项目管理），以后要写代码，需要打开此代码，**不要直接打开.py文件编辑！** 可以现将其复制到项目路径下打开再编辑。（可以直接把文件复制，再在之后所展示的窗口中选中pythonProject（或你自己改的名字）右键粘贴）  
 ![配置1](https://gitee.com/rocketma/Guidance/raw/main/Pictures/17.jpg "配置1")  
 ![配置2](https://gitee.com/rocketma/Guidance/raw/main/Pictures/18.jpg "配置2")  
 ![配置3](https://gitee.com/rocketma/Guidance/raw/main/Pictures/19.jpg "配置3")  
