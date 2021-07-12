@@ -1,5 +1,5 @@
 # Python安装指导
-如果网速慢，图片加载不出来，可以试试[Gitee的仓库](https://gitee.com/rocketma/Guidance "gitee.com")
+如果网速慢，图片加载不出来，可以试试[Gitee的仓库](https://gitee.com/rocketma/Guidance/blob/main/guidance.md "gitee.com")
 
 ## Anaconda + PyCharm  
 ### 1.明确系统版本与位数  
