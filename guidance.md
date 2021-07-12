@@ -1,4 +1,5 @@
 # Python安装指导
+如果网速慢，图片加载不出来，可以试试[Gitee的仓库](https://gitee.com/rocketma/Guidance "gitee.com")
 
 ## Anaconda + PyCharm  
 ### 1.明确系统版本与位数  
@@ -85,3 +86,6 @@ PyCharm安装细节已给出，剩下无脑next。
 若不需要用到pandas等模块，只需要python的基本模块（random等），请移步[Python官网](https://www.python.org/ "Python官网") ，win10建议下载python3.8.10，win7需下载3.6.8，点进去按你电脑的位数下载。**若已安装了纯python，请不要勾选第4步中第一张图中的复选框！**  
 安装完纯Python后，可以在程序目录处找到IDLE。  
 要使用Spyder，安装完Anaconda后，Spyder会自动安装，在程序目录处找到其即可。  
+
+# 版权声明
+(C) Copyright 2021 Rocket, 遵守GPL 3.0许可
