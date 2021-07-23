@@ -2,7 +2,7 @@
 
 如果网速慢，图片加载不出来，可以试试[Gitee的仓库](https://gitee.com/rocketma/Guidance/blob/main/guidance.md "gitee.com")
 
-## Anaconda + PyCharm
+## `[1]`Anaconda
 
 ### 1.明确系统版本与位数
 
@@ -22,21 +22,81 @@
 图中版本：`Anaconda3 5.2.0`  
 由于完整装完Anaconda需要2G左右空间，若喜欢折腾可以跳到`附录1`部分以节省宝贵的磁盘空间，以及更快的扫描索引速度（下文会提及）
 
-### 3.下载PyCharm（**完成此步需要64位电脑！若为32位，请移步`附录2`**）
+### 3.安装Anaconda和PyCharm
+
+![安装3](Pictures/8.jpg "安装3")  
+![安装1](Pictures/6.jpg "安装1")  
+使用360的用户***一定***要在弹窗弹出来时选择**允许操作**!  
+![安装2](Pictures/7.jpg "安装2")  
+Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，剩下只需要next就行。  
+
+## `[2]`Visual Studio Code(VS Code)
+
+### 1.下载VS Code
+
+为什么要选择VS Code而非IDLE,Spyder？VS Code是现在编Python的IDE中市场份额第二的IDE，虽然没有Pycharm智能，但仍然具有**自动补全，快速错误检查，代码优化，丰富的快捷键，缩短开发周期（原来30分钟可以缩短到15分钟），快速修复**等功能，并且设置更简单，更接近Spyder，插件丰富。
+
+打开网址:[VS Code](https://code.visualstudio.com/ "vsc download")  
+如果你的电脑是64位:  
+![vs下载1](Pictures/v1.jpg "vs下载1")  
+
+如果你的电脑是32位:  
+![vs下载2](Pictures/v2.jpg "vs下载2")  
+![vs下载3](Pictures/v3.jpg "vs下载3")
+
+### 2.安装VS Code
+
+注意以下图片上的选项，其余的按下一步即可  
+![vs安装4](Pictures/v4.jpg "vs安装4")
+
+### 3.配置VS Code
+
+需要下载一下中文和Python插件  
+![vs配置5](Pictures/v5.jpg "vs配置5")  
+![vs配置6](Pictures/v6.jpg "vs配置6")  
+![vs配置7](Pictures/v7.jpg "vs配置7")
+
+### 4.开始编程吧
+
+![vs编程8](Pictures/v8.jpg "vs编程8")  
+![vs编程9](Pictures/v9.jpg "vs编程9")  
+![vs编程11](Pictures/v11.jpg "vs编程11")  
+然后给你的文件起个名，像Spyder一样  
+写完程序后，可以执行格式化来使你代码更好看  
+**此处的右键指在空白处右键而不是右键菜单**  
+熟练后可以直接使用快捷键`Shift`+`Alt`+`F`  
+![vs编程12](Pictures/v12.jpg "vs编程12")  
+*第一次使用需要安装`autopep8`*
+![vs编程13](Pictures/v13.jpg "vs编程13")  
+![vs编程14](Pictures/v14.jpg "vs编程14")  
+![vs编程15](Pictures/v15.jpg "vs编程15")  
+
+如果出现Python开始界面，请将其关闭  
+![vs10](Pictures/v10.jpg "vs10")
+
+### 5.运行你的代码
+
+![vs运行16](Pictures/v16.jpg "vs运行16")  
+![vs运行17](Pictures/v17.jpg "vs运行17")  
+
+### +.更换颜色主题
+
+觉得颜色太深？  
+![vs主题18](Pictures/v18.jpg "vs主题18")  
+![vs主题19](Pictures/v19.jpg "vs主题19")  
+
+## `[3]`PyCharm
+
+**(`[2]`,`[3]`中任选其一)**
+
+### 1.下载PyCharm（**完成此步需要64位电脑！若为32位，请移步`[2]`或`附录3`**）
 
 为什么要选择PyCharm而非IDLE，Spyder？PyCharm作为目前市场占有率最高的python IDE，具有**自动补全，快速错误检查，调试表达式快速计算，代码优化，丰富的快捷键，自动导入，缩短开发周期（原来30分钟可以缩短到10分钟），快速修复**等。  
 打开[Pycharm Download](https://www.jetbrains.com/pycharm/download/#section=windows "下载PyCharm")，下载Community版，**不要选错**！：  
 ![下载PyCharm](Pictures/5.jpg "下载PyCharm")
 
-### 4.安装Anaconda和PyCharm
+### 2.安装PyCharm
 
-![安装3](Pictures/8.jpg "安装3")  
-![安装1](Pictures/6.jpg "安装1")  
-![安装2](Pictures/7.jpg "安装2")  
-
-使用360的用户***一定***要在弹窗弹出来时选择**允许操作**!
-
-Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，剩下只需要next就行。  
 ![安装4](Pictures/9.jpg "安装4")  
 ![安装5](Pictures/10.jpg "安装5")  
 PyCharm安装细节已给出，剩下无脑next。  
@@ -48,7 +108,7 @@ PyCharm安装细节已给出，剩下无脑next。
 ![安装10](Pictures/16.jpg "安装10")  
 ![安装11](Pictures/13.jpg "安装11")  
 
-### 5.配置Python解释器
+### 3.配置Python解释器
 
 首先要新建一个项目（PyCharm很在意项目管理），以后要写代码，需要打开此代码，**不要直接打开.py文件编辑！** 可以现将其复制到项目路径下打开再编辑。（可以直接把文件复制，再在之后所展示的窗口中选中pythonProject（或你自己改的名字）右键粘贴）  
 ![配置1](Pictures/17u.jpg "配置1")  
@@ -60,7 +120,7 @@ PyCharm安装细节已给出，剩下无脑next。
 ![配置7](Pictures/23.jpg "配置7")  
 ![配置8](Pictures/24.jpg "配置8")  
 
-### 6.设置运行配置并开始编写你的代码
+### 4.设置运行配置并开始编写你的代码
 
 由于PyCharm不以单个文件为操作单位，而操作整个项目，所以新建完一个文件以后直接运行并不会运行你想要的文件。下面给出了具体的配置方法，也可按下main的启动配置（一个左上角带三角形的小框）->编辑启动配置->左上角“+”号->python->键入配置名称（一般为你的python文件名）以及脚本路径（按右边文件夹按钮，往下拉一拉就能找到你的文件了）->确定，就能在下拉框里找到你的启动配置了。选中它，再按运行就可以运行你的文件了。**在再次运行你的文件时，如果运行的文件不对，看看是不是启动配置选错了。**  
 ![运行1](Pictures/25.jpg "运行1")  
