@@ -25,6 +25,7 @@
 ### 3.安装Anaconda和PyCharm
 
 ![安装3](Pictures/8.jpg "安装3")  
+**不要在安装路径中包含中文字符！若出现警告，更换为纯英文路径即可**  
 ![安装1](Pictures/6.jpg "安装1")  
 使用360的用户***一定***要在弹窗弹出来时选择**允许操作**!  
 ![安装2](Pictures/7.jpg "安装2")  
@@ -54,7 +55,9 @@ Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，
 需要下载一下中文和Python插件  
 ![vs配置5](Pictures/v5.jpg "vs配置5")  
 ![vs配置6](Pictures/v6.jpg "vs配置6")  
-![vs配置7](Pictures/v7.jpg "vs配置7")
+![vs配置7](Pictures/v7.jpg "vs配置7")  
+如果跳出来要求选择Python解释器，选择带Python的即可，如下图：
+
 
 ### 4.开始编程吧
 
@@ -155,7 +158,7 @@ PyCharm安装细节已给出，剩下无脑next。
 
 ## 附录3：仍要使用Spyder或IDLE
 
-**不推荐**！两者都是占有率只有2%的IDE（Pycharm 32%）！  
+**不推荐**！两者都是占有率只有2%的IDE（Pycharm 32%, VS Code 30%）！  
 若不需要用到pandas等模块，只需要python的基本模块（random等），请移步[Python官网](https://www.python.org/ "Python官网") ，win10建议下载python3.8.10，win7需下载3.6.8，点进去按你电脑的位数下载。**若已安装了纯python，请不要勾选第4步中第一张图中的复选框！**  
 安装完纯Python后，可以在程序目录处找到IDLE。  
 要使用Spyder，安装完Anaconda后，Spyder会自动安装，在程序目录处找到其即可。  
