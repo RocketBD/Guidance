@@ -24,6 +24,7 @@
 
 ### 3.安装Anaconda和PyCharm
 
+**不要在安装路径中包含中文字符！若出现警告，更换为纯英文路径即可**  
 ![安装3](Pictures/8.jpg "安装3")  
 **不要在安装路径中包含中文字符！若出现警告，更换为纯英文路径即可**  
 ![安装1](Pictures/6.jpg "安装1")  
@@ -56,8 +57,8 @@ Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，
 ![vs配置5](Pictures/v5.jpg "vs配置5")  
 ![vs配置6](Pictures/v6.jpg "vs配置6")  
 ![vs配置7](Pictures/v7.jpg "vs配置7")  
-如果跳出来要求选择Python解释器，选择带Python的即可，如下图：
-
+如果跳出来要求选择Python解释器，选择带Python的即可，如下图：  
+![vsi](Pictures/v20.jpg "vs Python解释器")  
 
 ### 4.开始编程吧
 
@@ -69,6 +70,7 @@ Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，
 **此处的右键指在空白处右键而不是右键菜单**  
 熟练后可以直接使用快捷键`Shift`+`Alt`+`F`  
 ![vs编程12](Pictures/v12.jpg "vs编程12")  
+*请写一些自己的代码！*  
 *第一次使用需要安装`autopep8`*
 ![vs编程13](Pictures/v13.jpg "vs编程13")  
 ![vs编程14](Pictures/v14.jpg "vs编程14")  
