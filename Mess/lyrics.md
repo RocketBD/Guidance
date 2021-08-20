@@ -38,9 +38,9 @@ nan kai da tte ma ki o ko se su pa
 a ki ra me na i de **i believe**  
 i tsu ka ki me ta go ru ni  
 **try** to do ke zen so de  
-ha shi ri ma ku ro u **never giveup**  
+ha shi ri ma ku ro u **never give up**  
 ka ze mo o to mo hi ka ri mo  
 o i ko shi cha tte  
 da re mo shi ra na i a shi ta e su su me  
-(ho ra) ki mi to yu me o ka sa ne? te ru  
-(ho ra) so no su na? ta ko no hi to mi u tsu tte ru ka ra  
+(ho ra) ki mi to yu me o ka sa ne te ru  
+(ho ra) so no su na ta ko no hi to mi u tsu tte ru ka ra  
