@@ -25,14 +25,14 @@ nan kai da tte ka chi su su me
 sho ri no so no sa ki e  
 **sunshine**  ma e o mu ke ba  
 **passion** ta ka na ru **fanfare**  
-a o zo da i cho sen (me chu se de te)  
+a o zo da i cho sen (me chu se de ppen)  
 cho tto he ko mu to ki wa  
 pa tto mi mi su ma se te **feel me**  
 so no se na ka oshi te tai ka ra  
 ki mo chi chi na tsu  
 so re zo re ni tsu zu ku chi hei sen ke tte  
 **no more** ma yo wa na i de  
-**let's go** to ma ra zu i kou  
+**let's go** to ma ra zu yu kou  
 ki mi to yu me o ka ke ru yo  
 nan kai da tte ma ki o ko se su pa  
 a ki ra me na i de **i believe**  
