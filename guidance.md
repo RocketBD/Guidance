@@ -3,7 +3,7 @@
 ## 说在前面的话
 
 如果网速慢，图片加载不出来，可以试试[Gitee的仓库](https://gitee.com/rocketma/Guidance/blob/main/guidance.md "gitee.com")。Gitee的仓库是[GitHub仓库](https://github.com/RocketMaDev/Guidance/blob/main/guidance.md "github")的同步。  
-查看本文档时请耐心，文中大部分都是图片，操作内容实际很少。`[1]`必装，`[2]``[3]`选装其一。如果你更习惯Spyder，建议安装`[2]`。  
+查看本文档时请耐心，文中大部分都是图片，操作内容实际很少。`[1]`必装，`[2]` `[3]`选装其一。如果你更习惯Spyder，建议安装`[2]`。  
 在安装时遇到任何问题，欢迎登录（注册）后在文档顶部`issues`板块发布issue，我会尽快回答。  
 请注意每一行字都可能有用，请不要擅自跳步，避免安装受阻。  
 本文不论及MacOS，请若使用MacOS，请下载提到的软件的MacOS版本。  
