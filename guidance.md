@@ -1,6 +1,12 @@
 # Python安装指导
 
-如果网速慢，图片加载不出来，可以试试[Gitee的仓库](https://gitee.com/rocketma/Guidance/blob/main/guidance.md "gitee.com")
+## 说在前面的话
+
+如果网速慢，图片加载不出来，可以试试[Gitee的仓库](https://gitee.com/rocketma/Guidance/blob/main/guidance.md "gitee.com")。Gitee的仓库是[GitHub仓库](https://github.com/RocketMaDev/Guidance/blob/main/guidance.md "github")的同步。  
+查看本文档时请耐心，文中大部分都是图片，操作内容实际很少。`[1]`必装，`[2]``[3]`选装其一。如果你更习惯Spyder，建议安装`[2]`。  
+在安装时遇到任何问题，欢迎登录（注册）后在文档顶部`issues`板块发布issue，我会尽快回答。  
+请注意每一行字都可能有用，请不要擅自跳步，避免安装受阻。  
+本文不论及MacOS，请若使用MacOS，请下载提到的软件的MacOS版本。  
 
 ## `[1]`Anaconda
 
@@ -22,11 +28,12 @@
 图中版本：`Anaconda3 5.2.0`  
 由于完整装完Anaconda需要2G左右空间，若喜欢折腾可以跳到`附录1`部分以节省宝贵的磁盘空间，以及更快的扫描索引速度（下文会提及）
 
+觉得下载太慢，可以在[清华镜像站下载](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/),win10请找到最新的文件（**非位于页尾！按Date↓可以按时间排序**），win7下载的文件与上文相同。
+
 ### 3.安装Anaconda
 
 **不要在安装路径中包含中文字符！若出现警告，更换为纯英文路径即可**  
 ![安装3](Pictures/8.jpg "安装3")  
-**不要在安装路径中包含中文字符！若出现警告，更换为纯英文路径即可**  
 ![安装1](Pictures/6.jpg "安装1")  
 使用360的用户***一定***要在弹窗弹出来时选择**允许操作**!  
 ![安装2](Pictures/7.jpg "安装2")  
@@ -49,7 +56,8 @@ Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，
 ### 2.安装VS Code
 
 注意以下图片上的选项，其余的按下一步即可  
-![vs安装4](Pictures/v4.jpg "vs安装4")
+![vs安装4](Pictures/v4.jpg "vs安装4")  
+**安装完毕后请重启一次**
 
 ### 3.配置VS Code
 
@@ -59,6 +67,8 @@ Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，
 ![vs配置7](Pictures/v7.jpg "vs配置7")  
 如果跳出来要求选择Python解释器，选择带Python的即可，如下图：  
 ![vsi](Pictures/v20.jpg "vs Python解释器")  
+如果出现Python开始界面，请将其关闭  
+![vs10](Pictures/v10.jpg "vs10")
 
 ### 4.开始编程吧
 
@@ -76,19 +86,22 @@ Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，
 ![vs编程14](Pictures/v14.jpg "vs编程14")  
 ![vs编程15](Pictures/v15.jpg "vs编程15")  
 
-如果出现Python开始界面，请将其关闭  
-![vs10](Pictures/v10.jpg "vs10")
-
 ### 5.运行你的代码
 
 ![vs运行16](Pictures/v16.jpg "vs运行16")  
 ![vs运行17](Pictures/v17.jpg "vs运行17")  
 
-### +.更换颜色主题
+### +.VS Code扩展教程
 
-觉得颜色太深？  
+#### *颜色主题*
+
+觉得颜色太深？不如换个颜色主题  
 ![vs主题18](Pictures/v18.jpg "vs主题18")  
 ![vs主题19](Pictures/v19.jpg "vs主题19")  
+
+#### *IDE配置*
+
+参考[教程](https://zhuanlan.zhihu.com/p/345806901)
 
 ## `[3]`PyCharm
 
@@ -105,12 +118,13 @@ Anaconda的安装细节已给出，在第一张图中勾上第一个单选框，
 ![安装4](Pictures/9.jpg "安装4")  
 ![安装5](Pictures/10.jpg "安装5")  
 PyCharm安装细节已给出，剩下无脑next。  
-接下来在桌面上打开，按图中操作，需要网络，完成操作后会有一个弹窗，按”Restart now”。此时PyCharm变成中文。最后一张图是PyCharm的启动画面。  
+接下来在桌面上打开，按图中操作，需要网络  
 ![安装6](Pictures/11.jpg "安装6")  
 ![安装7](Pictures/12.jpg "安装7")  
 ![安装8](Pictures/14u.jpg "安装8")  
 ![安装9](Pictures/15.jpg "安装9")  
 ![安装10](Pictures/16.jpg "安装10")  
+完成操作后会有一个弹窗，按”Restart now”。此时PyCharm变成中文。最后一张图是PyCharm的启动画面。  
 ![安装11](Pictures/13.jpg "安装11")  
 
 ### 3.配置Python解释器
@@ -164,6 +178,22 @@ PyCharm安装细节已给出，剩下无脑next。
 若不需要用到pandas等模块，只需要python的基本模块（random等），请移步[Python官网](https://www.python.org/ "Python官网") ，win10建议下载python3.8.10，win7需下载3.6.8，点进去按你电脑的位数下载。**若已安装了纯python，请不要勾选第4步中第一张图中的复选框！**  
 安装完纯Python后，可以在程序目录处找到IDLE。  
 要使用Spyder，安装完Anaconda后，Spyder会自动安装，在程序目录处找到其即可。  
+
+## 附录4：下载`jieba`
+
+在Anaconda（开始菜单中的）目录中找到`Anaconda Powershell Prompt (miniconda3)`，然后单击以运行：  
+![命令行1](Pictures/33.jpg "命令行1")  
+输入以下代码后回车：
+
+```powershell
+pip install jieba
+```
+
+如果下载太慢，可以使用以下代码（使用清华源）：
+
+```powershell
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jieba
+```
 
 ## 版权声明
 
