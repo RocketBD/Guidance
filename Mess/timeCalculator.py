@@ -21,8 +21,6 @@ class TimeStamp:
         if isinstance(time, float):
             if time < 0 or time >= 25:
                 raise ValueError('Time is not like that!')
-            if time >= 24:
-                time -= 24
             self.__stamp = round(time * 60)
 
         elif isinstance(time, str):
@@ -34,7 +32,7 @@ class TimeStamp:
         elif isinstance(time, int):
             if time < 0 or time > 24 or minute < 0 or minute > 60:
                 raise ValueError('Time is not like that!')
-            self.__stamp = (time if time != 24 else 0) * 60 + minute
+            self.__stamp = time * 60 + minute
         else:
             raise TypeError('Unsupported')
 
